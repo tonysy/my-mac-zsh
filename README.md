@@ -19,7 +19,7 @@ brew update
 - Install wget `brew install wget`
 - Install oh-my-zsh : a tool to manage and configure zsh
 `$ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh`
-- Change to zsh: `chsh -h /bin/zsh`
+- Change to zsh: `chsh -s /bin/zsh`
 - Close and re-open iterm2 
 ### 3.Add more tools to zsh
 - Change the theme:
