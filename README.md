@@ -38,3 +38,15 @@ brew update
     - Open `.zshrc` and insert `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
     - Save and Close
     - `source .zshrc`
+- Add autojump
+    - git clone https://github.com/joelthelion/autojump.git
+    - 
+      ```shell
+      cd autojump
+      ./install.py
+      ```
+    - Add the following into '~/.zshrc'
+    ```shell
+    [[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh
+    autoload -U compinit && compinit -u
+    ```
